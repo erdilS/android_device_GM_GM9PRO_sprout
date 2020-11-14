@@ -1,4 +1,4 @@
-## Copyright 2020 - DevOtag
+Copyright 2020 - The LineageOS Project
 
 # Device Tree for General Mobile 9 Pro (GM9PRO_sprout)
 
@@ -20,9 +20,6 @@
 | Front Camera            | 8MP FF, f2.0 Aperture Selfie Camera
 | Release Date            | September 2018
 
-Important: Visit the GM9PRO_sprout sources post https://devotag.com/threads/gm-9-pro-device-sources.841/
 
-## Device Picture
-
-![General Mobile 9 Pro](https://i.resimyukle.xyz/AK6dWU.png "General Mobile 9 Pro")
+![GM9_Pro](https://assets.generalmobile.com/images/gm9-pro/gm9pro-horizontal-edited.jpg "GM9_Pro")
 

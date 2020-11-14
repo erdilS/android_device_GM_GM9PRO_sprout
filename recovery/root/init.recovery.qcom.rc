@@ -1,4 +1,4 @@
-import /init.recovery.zangya.usb.rc
+import /init.recovery.gm9pro.usb.rc
 
 on fs
     wait /dev/block/platform/soc/c0c4000.sdhci

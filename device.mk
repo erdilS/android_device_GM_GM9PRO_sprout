@@ -104,20 +104,6 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    $(LOCAL_PATH)/configs/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
-    $(LOCAL_PATH)/configs/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/imx363_ofilm_ogc0830_back1_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx363_ofilm_ogc0830_back1_i_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/imx363_ofilm_ogc1195_back1_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx363_ofilm_ogc1195_back1_i_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/imx363_sunny_a12n12c_back1_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx363_sunny_a12n12c_back1_ii_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/s5k3h7_ofilm_off1012_front_iii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3h7_ofilm_off1012_front_iii_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/s5k3h7_sunny_a8s05a_front_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3h7_sunny_a8s05a_front_i_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/s5k3h7_tsp_lcs8f01_front_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3h7_tsp_lcs8f01_front_ii_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/s5k4h8_ofilm_ogc0831_back2_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_ofilm_ogc0831_back2_i_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/s5k4h8_sunny_d8s09b_back2_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_sunny_d8s09b_back2_ii_chromatix.xml
-
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.camera.provider@2.4-impl \

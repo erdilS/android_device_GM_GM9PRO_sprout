@@ -132,16 +132,6 @@
                     <profile name="" format="AUDIO_FORMAT_DTS_HD"
                              samplingRates="32000,44100,48000,64000,88200,96000,128000,176400,192000"
                              channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_QUAD,AUDIO_CHANNEL_OUT_PENTA,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
-                    <!--jianggp 20180918 remove this part start for bug TEL_L9501_A01-208,not support wma,wmv-->
-                    <!--
-                    <profile name="" format="AUDIO_FORMAT_WMA"
-                             samplingRates="8000,11025,12000,16000,22050,24000,32000,44100,48000"
-                             channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_QUAD,AUDIO_CHANNEL_OUT_PENTA,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
-                    <profile name="" format="AUDIO_FORMAT_WMA_PRO"
-                             samplingRates="8000,11025,12000,16000,22050,24000,32000,44100,48000,64000,88200,96000"
-                             channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_QUAD,AUDIO_CHANNEL_OUT_PENTA,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
-                    -->
-                    <!--jianggp 20180918 remove this part end for bug TEL_L9501_A01-208,not support wma,wmv-->
                     <profile name="" format="AUDIO_FORMAT_VORBIS"
                              samplingRates="8000,11025,12000,16000,22050,24000,32000,44100,48000,64000,88200,96000,128000,176400,192000"
                              channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
@@ -345,7 +335,7 @@
         </module>
 
         <!-- A2DP Audio HAL -->
-        <xi:include href="/vendor/etc/a2dp_audio_policy_configuration.xml"/>
+        <xi:include href="a2dp_audio_policy_configuration.xml"/>
 
         <!-- Usb Audio HAL -->
         <module name="usb" halVersion="2.0">

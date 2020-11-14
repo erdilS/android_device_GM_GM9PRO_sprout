@@ -314,7 +314,7 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
-    $(LOCAL_PATH)/recovery/root/init.recovery.zangya.usb.rc:root/init.recovery.zangya.usb.rc
+    $(LOCAL_PATH)/recovery/root/init.recovery.gm9pro.usb.rc:root/init.recovery.gm9pro.usb.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
